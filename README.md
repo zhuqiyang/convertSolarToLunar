@@ -17,9 +17,12 @@ ThinkPHP中的使用方法：
 	
 	
 直接使用：
+
+<?php
 	require("DateConvert.class.php");
 	$DateConvert = new DateConvert();
 	
 	$date = explode('-',date('Y-m-d'));
 	$lunar = $DateConvert->convertSolarToLunar($date[0], $date[1], $date[2]);
 	var_dump($lunar);
+?>
