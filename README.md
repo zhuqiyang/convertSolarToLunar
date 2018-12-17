@@ -16,7 +16,7 @@ ThinkPHP中的使用方法：
 	}
 	
 	
-直接使用：
+原生PHP的使用方法：
 
 	require("DateConvert.class.php");
 	$DateConvert = new DateConvert();
