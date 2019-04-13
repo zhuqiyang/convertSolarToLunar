@@ -18,10 +18,10 @@ public function demo()
 
 ## 原生PHP的使用方法：
 ```php
-	require("DateConvert.class.php");
-	$DateConvert = new DateConvert();
+require("DateConvert.class.php");
+$DateConvert = new DateConvert();
 
-	$date = explode('-',date('Y-m-d'));
-	$lunar = $DateConvert->convertSolarToLunar($date[0], $date[1], $date[2]);
-	var_dump($lunar);
+$date = explode('-',date('Y-m-d'));
+$lunar = $DateConvert->convertSolarToLunar($date[0], $date[1], $date[2]);
+var_dump($lunar);
 ```
