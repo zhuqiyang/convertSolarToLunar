@@ -2,7 +2,7 @@
 公历转农历，Converting the Gregorian Calendar into the Lunar Calendar
 
 
-# ThinkPHP中的使用方法：
+## ThinkPHP中的使用方法：
     先将文件放入 ThinkPHP/Library/Org/Util 中，然后在控制器中使用 import 函数导入即可。
 ```php
 public function demo()
@@ -16,7 +16,7 @@ public function demo()
 }
 ```
 
-# 原生PHP的使用方法：
+## 原生PHP的使用方法：
 ```php
 	require("DateConvert.class.php");
 	$DateConvert = new DateConvert();
